@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chatbots-tails"
+version = "0.1.0"
+description = ""
+authors = ["Taruu <markov2002@bk.ru>"]
+readme = "README.md"
+packages = [{include = "chatbots_tails"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.3.2"
+vkbottle = "^4.3.12"
+vkbottle-types = "^5.131.146.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
