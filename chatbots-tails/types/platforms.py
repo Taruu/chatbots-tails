@@ -1,5 +1,5 @@
 from abc import ABC
 
 
-class Message(ABC):
+class Platform(ABC):
     pass
